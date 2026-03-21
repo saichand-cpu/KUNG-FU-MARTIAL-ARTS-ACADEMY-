@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>KUNG FU MARTIAL ARTS ACADEMY</title>
+<title>KUNG-FU MARTIAL ARTS ACADEMY</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <style>
 body {
@@ -29,7 +30,10 @@ header img {
 
 header h1 {
     color: white;
-    font-size: 40px;
+    font-size: 60px;
+    font-weight: bold;
+    width: 80%;
+    letter-spacing: 2px;
 }
 
 /* SECTION */
@@ -94,14 +98,28 @@ button {
 }
 
 .float-buttons a {
-    display: block;
-    margin: 10px;
-    padding: 10px;
-    background: #0a1f44;
-    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    margin: 10px 0;
     border-radius: 50%;
-    text-align: center;
+    color: white;
+    font-size: 22px;
     text-decoration: none;
+}
+
+.whatsapp {
+    background: #25D366;
+}
+
+.maps {
+    background: #4285F4;
+}
+
+.instagram {
+    background: radial-gradient(circle at 30% 30%, #feda75, #d62976, #962fbf);
 }
 
 /* FOOTER */
@@ -329,9 +347,17 @@ Branches: Nizampet & Mallampet
 </section>
 
 <div class="float-buttons">
-<a href="https://wa.me/919849458772">W</a>
-<a href="https://maps.app.goo.gl/Gj9zGKkGEsqEvSJL8">M</a>
-<a href="https://www.instagram.com/p/DWI1LFRj7bZ/">I</a>
+<a href="https://wa.me/919849458772" class="whatsapp" target="_blank">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+<a href="https://maps.app.goo.gl/Gj9zGKkGEsqEvSJL8" class="maps" target="_blank">
+<i class="fas fa-map-marker-alt"></i>
+</a>
+
+<a href="https://www.instagram.com/p/DWI1LFRj7bZ/" class="instagram" target="_blank">
+<i class="fab fa-instagram"></i>
+</a>
 </div>
 
 <footer>
